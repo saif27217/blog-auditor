@@ -20,6 +20,46 @@ Audit blog content and apply corrections **directly in the source Google Doc** u
 - User wants an exact change list with before/after terms and reasons
 - Doctor/lab-physician review lens is requested
 
+## Review Factors
+
+All changes evaluated through these factors:
+
+### Medical accuracy (doctor/lab-physician lens)
+1. Physiological mechanisms — correct pathways (e.g., lithium shifts CaSR set-point, not "increases production")
+2. Food classifications — verify claims (e.g., chicken/fish are NOT calcium-rich)
+3. Alternative recommendations — avoid misleading suggestions (e.g., carrots are NOT calcium-free)
+4. Clinical terminology — use standard terms (e.g., "chronic kidney disease" not "renal inflammation")
+5. Pathophysiology completeness — include missing mechanisms (e.g., macrophage calcitriol in sarcoidosis)
+6. Mnemonics/frameworks — include standard clinical tools (e.g., "Psychic Moans" in Stones/Bones/Groans)
+7. Meaning accuracy — verify statements aren't reversed (e.g., "difficulty remembering" not "remembering longer")
+8. Pathway mechanisms — correct molecular/cellular pathways (e.g., PTHrP in cancer)
+9. Terminology standardization — consistent spelling/formatting (e.g., "milk-alkali syndrome" hyphenated)
+
+### Clinical precision
+10. Qualifier language — add "potentially" for non-universal outcomes
+11. Unit/concept accuracy — "concentration" not "volume" for minerals
+12. Standard terminology — "gut motility" not "digestive signalling"
+13. Precise language — "circulating fluid" not "essential fluids"
+14. Context accuracy — "clinical context" not "severity of inflammation" for non-inflammatory conditions
+
+### Promotional language
+15. Remove specific marketing claims (branch counts, city counts)
+16. Remove self-referential promotion ("One such provider is...")
+17. Remove urgency language ("At your earliest convenience")
+18. Remove direct booking prompts ("book an appointment with a doctor")
+
+### Grammar/style
+19. Fix sentence fragments
+20. Correct comma splices
+21. Fix tense errors
+22. Standardize spelling (British/American)
+23. Consistent formatting (lowercase bullets, heading case)
+
+### Structural
+24. Image stubs → `[IMAGE: TBD]`
+25. Tracking URLs → clean links
+26. Heading hierarchy maintained
+
 ## Workflow
 
 ### 1. Fetch source content
